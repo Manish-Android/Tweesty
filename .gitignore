@@ -1,0 +1,7 @@
+
+# Created by Studio
+.gradle/
+build/
+local.properties
+.idea/
+*.iml
