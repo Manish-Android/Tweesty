@@ -7,4 +7,13 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+    <!-- Text Field bg Focus -->
+    <color name="TF_bg_focus">#e3f3f5</color>
+
+    <!-- MAIN BRAND COLOR -->
+    <color name="primary400">#04C7D0</color>
+
+    <!-- Inactive elements -->
+    <color name="neutral400">#C5C5CE</color>
 </resources>

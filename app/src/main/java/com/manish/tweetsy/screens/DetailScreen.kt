@@ -1,6 +1,7 @@
 package com.manish.tweetsy.screens
 
 import androidx.compose.foundation.BorderStroke
+import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.lazy.LazyColumn
@@ -43,7 +44,9 @@ fun TweetListItem(tweet: String) {
     Card(
         modifier = Modifier
             .fillMaxWidth()
-            .padding(16.dp),
+            .padding(16.dp)
+            .clickable {
+            },
         border = BorderStroke(1.dp, Color(0xFFCCCCCC)),
         colors = CardDefaults.cardColors(
             containerColor = Color.White,
@@ -55,7 +58,6 @@ fun TweetListItem(tweet: String) {
             modifier = Modifier.padding(16.dp),
             style = MaterialTheme.typography.bodyMedium
         )
-
     }
 
 }
