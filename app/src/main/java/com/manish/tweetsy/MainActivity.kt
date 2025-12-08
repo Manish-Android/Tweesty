@@ -23,6 +23,7 @@ import androidx.navigation.navArgument
 import com.manish.tweetsy.api.TweetsyApi
 import com.manish.tweetsy.screens.CategoryScreen
 import com.manish.tweetsy.screens.DetailScreen
+import com.manish.tweetsy.screens.commonScreens.OtpScreen
 import com.manish.tweetsy.ui.theme.TweetsyTheme
 import dagger.hilt.android.AndroidEntryPoint
 import javax.inject.Inject
@@ -58,7 +59,8 @@ class MainActivity : ComponentActivity() {
                             .background(Color.White)
                             .fillMaxSize()
                     ) {
-                        App()
+                      //  App()
+                        OtpScreen()
                     }
 
                 }
